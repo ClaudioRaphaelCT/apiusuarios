@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from models.user_model import Usuario
-from controllers.user_controller import UserController
+from src.models.user_model import Usuario
+from src.controllers.user_controller import UserController
 
 app = FastAPI(title="Usuarios",
               version="0.0.1",

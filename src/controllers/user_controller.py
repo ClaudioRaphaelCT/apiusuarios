@@ -1,4 +1,4 @@
-from database.database_schema import Usuarios, session
+from src.database.database_schema import Usuarios, session
 from views.responses import ResponseOK, ResponseErro
 
 class UserController:
