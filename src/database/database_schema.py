@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 # Conexão com SQLite
-engine = create_engine("sqlite:///database/database.db", echo=True)  # 'echo=True' para ver os logs no terminal
+engine = create_engine("sqlite:///src/database/database.db", echo=True)  # 'echo=True' para ver os logs no terminal
 Base = declarative_base()
 Session = sessionmaker(bind=engine)
 session = Session()

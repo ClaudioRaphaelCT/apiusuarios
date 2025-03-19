@@ -1,5 +1,5 @@
 from src.database.database_schema import Usuarios, session
-from views.responses import ResponseOK, ResponseErro
+from src.views.responses import ResponseOK, ResponseErro
 
 class UserController:
     @classmethod
